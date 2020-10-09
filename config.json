@@ -1,0 +1,17 @@
+{
+    "name": "cp-duplicate-post",
+    "display_name": "[ContentPress] Duplicate posts",
+    "description": "Duplicate posts with ease.",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "wp-kitten",
+            "url": "https://wp-kitten.github.io"
+        }
+    ],
+    "contributors": [],
+    "page_url": "https://github.com/wp-kitten/cp-duplicate-post",
+    "update_url": "",
+    "autoload": "index.php",
+    "thumbnail": "thumb.png"
+}
