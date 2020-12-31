@@ -11,7 +11,7 @@ define( 'CPDP_PLUGIN_DIR_NAME', basename( dirname( __FILE__ ) ) );
  */
 define( 'CPDP_PLUGIN_DIR_PATH', trailingslashit( wp_normalize_path( dirname( __FILE__ ) ) ) );
 
-if ( cp_is_admin() ) {
+if ( vp_is_admin() ) {
     require_once( CPDP_PLUGIN_DIR_PATH . 'hooks.php' );
     require_once( CPDP_PLUGIN_DIR_PATH . 'routes/web.php' );
 }
